@@ -11,10 +11,10 @@ const LangArr = {
         "ru": "Сервер недоступен на территории России и Беларуси",
         "en": "Server does not working in Russia and Belarus",
     },
-    //"close": {
-    //   "ru": "Закрыть",
-    //    "en": "Close",
-    //},
+    "close": {
+       "ru": "Закрыть",
+        "en": "Close",
+    },
     "sl": {
         "ru": "StoneLight - ванильный сервер без приватов и доната",
         "en": "Stonelight - vanilla server without private and donate",
