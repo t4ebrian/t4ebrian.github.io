@@ -22,7 +22,7 @@
                 <a href="./places-dev.html" class="lng-buildings">Постройки</a>
             </div>
             <div style="justify-content: flex-end;">
-                <span class="NoRuBy" onclick="hidenoruby()"><span id="nohover" class="lng-NoRuBy">Сервер недоступен на территории России и Беларуси</span><div id="onhover"><span><b class="lng-close">Закрыть</b></span></div></span>
+                <span class="NoRuBy" onclick="hidenoruby()"><span id="nohover" class="lng-NoRuBy">Сервер недоступен на территории России и Беларуси</span><div id="onhover"><span><b>Закрыть</b></span></div></span>
             </div>
         </div>
         
@@ -195,6 +195,9 @@
         function hidenoruby() {
             document.getElementsByClassName("NoRuBy")[0].classList.add("opahide");
             Cookies.set('hided', 'true', { expires: 7 })
+        }
+        function shownoruby() {
+            Cookies.remove()
         }
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-42DLHBGV89"></script>
